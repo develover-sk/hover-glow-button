@@ -1,0 +1,30 @@
+body {
+    background-color: #363b3a;
+}
+
+#flex-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#designed-button {
+    font-family: cursive;
+    padding: 1em 4em;
+    border: 3px solid;
+    background-color: rgb(174, 186, 187);
+    color: navy;
+    border-color: navy;
+    font-size: 1em;
+    letter-spacing: 1.2px;
+    transition: all 0.1s, letter-spacing 0.05s;
+}
+
+#designed-button:hover {
+    border-color: red;
+    color: #ffffff;
+    box-shadow: 0 0.6em 0.7em -0.2em red;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
